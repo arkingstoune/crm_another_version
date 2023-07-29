@@ -10,6 +10,7 @@ public sealed class Client
     private string? _gender;
     private string? _orderSpecification;
     private string? _orderId;
+    public string phone{get; set;}
     public  string FirstName
     {
         get{ return _firstName ?? string.Empty; }
