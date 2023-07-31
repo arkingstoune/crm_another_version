@@ -10,8 +10,43 @@ public sealed class Client
     private string? _gender;
     private string? _orderSpecification;
     private string? _orderId;
-    public string phone{get; init;}
-    // ya eby sobak
+    public string? _phone;
+    public string? _email;
+    public string? _password;
+
+    public  string Phone
+    {
+        get{ return _phone ?? string.Empty; }
+        init 
+        {
+            if(value.Length == 0)
+                throw new ArgumentOutOfRangeException(nameof(value),
+                "The valid OrderSpecification ");
+            _phone = value;
+        }
+    }
+    public  string Email
+    {
+        get{ return _email ?? string.Empty; }
+        init 
+        {
+            if(value.Length == 0)
+                throw new ArgumentOutOfRangeException(nameof(value),
+                "The valid OrderSpecification ");
+            _email = value;
+        }
+    }
+    public  string Password
+    {
+        get{ return _password ?? string.Empty; }
+        init 
+        {
+            if(value.Length == 0)
+                throw new ArgumentOutOfRangeException(nameof(value),
+                "The valid OrderSpecification ");
+            _password = value;
+        }
+    }
     public  string FirstName
     {
         get{ return _firstName ?? string.Empty; }
