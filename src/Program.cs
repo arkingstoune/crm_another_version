@@ -1,8 +1,10 @@
 ﻿using Crm;
 using System;
+
 ClientService clientService = new();
 CreateClient();
 CreateOrder();
+ClientMethod Oleg = new ClientMethod();
 
 void CreateClient()
 {
