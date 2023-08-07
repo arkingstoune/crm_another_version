@@ -32,3 +32,17 @@ public sealed class ClientService
         _listOfClients.Add = client;
     }
 }
+interface ClientMustHave
+    {
+        void CheckForClient();
+    }
+    abstract class CheckoutClient : ClientMustHave
+    {
+        abstract public bool CheckForClient(Client client)
+        {
+            bool b = client.FirstName != "";
+            bool c = client.LastName != "";
+            if (b == true && c == true) return true;
+            return false;
+        }
+    }
