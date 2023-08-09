@@ -22,27 +22,17 @@ public sealed class ClientService
             OrderId = clientOrder.OrderId
         };
     }
-    private static List<Client> _listOfClients = new();
-    public static List<Client> ListOfClients
-    {
-        get{ _listOfClients; }
-    }
-    public Client addClient( Client client)
-    {
-        _listOfClients.Add = client;
-    }
-}
-interface ClientMustHave
+public interface ClientMustHave
     {
         void CheckForClient();
     }
-    abstract class CheckoutClient : ClientMustHave
+abstract class CheckoutClient
+{
+    public bool CheckForClient(Client client)
     {
-        abstract public bool CheckForClient(Client client)
-        {
-            bool b = client.FirstName != "";
-            bool c = client.LastName != "";
-            if (b == true && c == true) return true;
-            return false;
-        }
+        bool b = client.FirstName != "";
+        bool c = client.LastName != "";
+        if (b == true && c == true) return true;
+        return false;
     }
+}

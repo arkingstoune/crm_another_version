@@ -2,7 +2,9 @@
 using System;
 
 ClientService clientService = new();
-CreateClient();
+ List<Client> ListOfClients = new List<Client>();
+ 
+
 CreateOrder();
 ClientMethod Oleg = new ClientMethod();
 
@@ -32,5 +34,6 @@ void CreateOrder()
         OrderId = Ordreid 
     });
     Console.WriteLine(newClient.OrderId);
+    ListOfClients.Add(newClient);
 
 }
