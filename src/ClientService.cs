@@ -22,6 +22,7 @@ public sealed class ClientService
             OrderId = clientOrder.OrderId
         };
     }
+}
 public interface ClientMustHave
     {
         void CheckForClient();

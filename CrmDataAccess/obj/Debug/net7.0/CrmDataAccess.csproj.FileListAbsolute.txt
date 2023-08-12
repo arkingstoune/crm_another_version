@@ -1,0 +1,12 @@
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\bin\Debug\net7.0\CrmDataAccess.deps.json
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\bin\Debug\net7.0\CrmDataAccess.dll
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\bin\Debug\net7.0\CrmDataAccess.pdb
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\obj\Debug\net7.0\CrmDataAccess.csproj.AssemblyReference.cache
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\obj\Debug\net7.0\CrmDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\obj\Debug\net7.0\CrmDataAccess.AssemblyInfoInputs.cache
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\obj\Debug\net7.0\CrmDataAccess.AssemblyInfo.cs
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\obj\Debug\net7.0\CrmDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\obj\Debug\net7.0\CrmDataAccess.dll
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\obj\Debug\net7.0\refint\CrmDataAccess.dll
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\obj\Debug\net7.0\CrmDataAccess.pdb
+C:\Users\arkin\Desktop\crm_another_version\CrmDataAccess\obj\Debug\net7.0\ref\CrmDataAccess.dll

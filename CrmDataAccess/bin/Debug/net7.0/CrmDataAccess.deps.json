@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "src/1.0.0": {
-        "dependencies": {
-          "CrmDataAccess": "1.0.0"
-        },
-        "runtime": {
-          "src.dll": {}
-        }
-      },
       "CrmDataAccess/1.0.0": {
         "runtime": {
           "CrmDataAccess.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "src/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "CrmDataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,

@@ -10,9 +10,9 @@ public sealed class Client
     private string? _gender;
     private string? _orderSpecification;
     private string? _orderId;
-    public string? _phone;
-    public string? _email;
-    public string? _password;
+    private string? _phone;
+    private string? _email;
+    private string? _password;
 
     public  string Phone
     {

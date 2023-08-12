@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "CrmDataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/CrmDataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CrmDataAccess.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "CrmDataAccess/1.0.0": {
-      "type": "project",
-      "path": "../CrmDataAccess/CrmDataAccess.csproj",
-      "msbuildProject": "../CrmDataAccess/CrmDataAccess.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "CrmDataAccess >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\arkin\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arkin\\Desktop\\crm_another_version\\src\\src.csproj",
-      "projectName": "src",
-      "projectPath": "C:\\Users\\arkin\\Desktop\\crm_another_version\\src\\src.csproj",
+      "projectUniqueName": "C:\\Users\\arkin\\Desktop\\crm_another_version\\CrmDataAccess\\CrmDataAccess.csproj",
+      "projectName": "CrmDataAccess",
+      "projectPath": "C:\\Users\\arkin\\Desktop\\crm_another_version\\CrmDataAccess\\CrmDataAccess.csproj",
       "packagesPath": "C:\\Users\\arkin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arkin\\Desktop\\crm_another_version\\src\\obj\\",
+      "outputPath": "C:\\Users\\arkin\\Desktop\\crm_another_version\\CrmDataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arkin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\arkin\\Desktop\\crm_another_version\\CrmDataAccess\\CrmDataAccess.csproj": {
-              "projectPath": "C:\\Users\\arkin\\Desktop\\crm_another_version\\CrmDataAccess\\CrmDataAccess.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

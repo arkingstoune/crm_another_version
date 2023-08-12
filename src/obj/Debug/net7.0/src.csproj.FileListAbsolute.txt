@@ -13,3 +13,6 @@ C:\Users\arkin\Desktop\crm_another_version\src\obj\Debug\net7.0\refint\src.dll
 C:\Users\arkin\Desktop\crm_another_version\src\obj\Debug\net7.0\src.pdb
 C:\Users\arkin\Desktop\crm_another_version\src\obj\Debug\net7.0\src.genruntimeconfig.cache
 C:\Users\arkin\Desktop\crm_another_version\src\obj\Debug\net7.0\ref\src.dll
+C:\Users\arkin\Desktop\crm_another_version\src\bin\Debug\net7.0\CrmDataAccess.dll
+C:\Users\arkin\Desktop\crm_another_version\src\bin\Debug\net7.0\CrmDataAccess.pdb
+C:\Users\arkin\Desktop\crm_another_version\src\obj\Debug\net7.0\src.csproj.CopyComplete
