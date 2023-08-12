@@ -1,19 +1,36 @@
 using Crm;
+using System;
 using System.Collections.Generic;
 public sealed class ClientService
 {
+    public List<Client> _listofclients;
+    public ClientService()
+    {
+        _listofclients = new();
+    }
     public Client CreateClient(ClientInfo clientInfo)
     {
-        return new()
+        Client NewClient = new()
         {
-            FirstName = clientInfo.FirstName,
-            LastName = clientInfo.LastName,
-            MiddleName = clientInfo.MiddleName,
-            Age = clientInfo.Age,
-            PassportNumber = clientInfo.PassportNumber,
-            Gender = clientInfo.Gender
+        FirstName = clientInfo.FirstName,
+        LastName = clientInfo.LastName,
+        MiddleName = clientInfo.MiddleName,
+        Age = clientInfo.Age,
+        PassportNumber = clientInfo.PassportNumber,
+        Gender = clientInfo.Gender
         };
+        
+        _listofclients.Add(NewClient);
+        return NewClient;
     }   
+    public Client Print_listOfClients(string firstName, string lastName)
+    {
+        foreach (var person in _listofclients)
+        {
+            if(person.FirstName.Equals(firstName) && person.LastName.Equals(lastName) ) return person;
+        }
+        return null;
+    }
     public Client CreateOrder(ClientOrder clientOrder)
     {
         return new()
@@ -23,7 +40,7 @@ public sealed class ClientService
         };
     }
 }
-public interface ClientMustHave
+interface ClientMustHave
     {
         void CheckForClient();
     }
