@@ -1,12 +1,12 @@
 namespace StepByStep;
-internal class AndThe()
+internal class AndThe
 {
-    protected string Mountain()
+    protected void Mountain()
     {
         Console.WriteLine("we are sorry");
     }
 }
-public clacc andrey : AndThe
+public class andrey : AndThe
 {
     Mountain();
 

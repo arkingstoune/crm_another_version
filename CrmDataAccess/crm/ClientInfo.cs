@@ -1,6 +1,6 @@
 namespace Crm;
 
-public readonly struct ClientInfo : StepByStep
+public readonly struct ClientInfo : Andthe
 {
     public required readonly string FirstName { get; init; }
     public required readonly  string LastName { get; init; }
