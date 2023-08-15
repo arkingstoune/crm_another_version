@@ -1,13 +1,18 @@
 namespace StepByStep;
 internal class AndThe
 {
-    protected void Mountain()
+    protected string Mountain()
     {
         Console.WriteLine("we are sorry");
+        return "";
     }
-}
-public class andrey : AndThe
-{
-    Mountain();
 
+}
+internal class andrey : AndThe
+{
+    public void IfWeDidSomthingWrong()
+    {
+        Console.WriteLine("dear client");
+        Mountain();
+    }
 }
